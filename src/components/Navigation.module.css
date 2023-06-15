@@ -2,7 +2,7 @@
 .transparentHeader {
   /* background-color: hsl(186, 98%, 17%); */
   background: rgba(0, 0, 0, 0.6);
-  padding: 1rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   border-bottom: 3px solid hsl(186, 100%, 4%);
   display: flex;
   position: fixed;
@@ -23,8 +23,8 @@
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .glossyHeader {
-    -webkit-backdrop-filter: blur(100px);
-    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     background-color: rgba(255, 255, 255, 0.2);
   }
 }
@@ -67,7 +67,7 @@
 }
 
 .links {
-  background-color: hsl(117, 64%, 6%);
+  background-color: var(--rapture-blue);
   /* background-color: hsl(221, 54%, 43%); */
   width: calc(100% - 4rem);
   max-width: 23rem;
@@ -80,6 +80,28 @@
   right: 0;
   overflow-y: scroll;
   z-index: 4;
+}
+
+.socials {
+  margin-top: 2rem;
+}
+
+.socials ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials a {
+  display: block;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
 }
 
 .hamburger {
@@ -148,6 +170,15 @@
 @media (hover: hover) {
   .list a:hover {
     color: var(--light-coral);
+  }
+}
+
+@media (max-width: 20rem) {
+  .links {
+    width: calc(100% - 2rem);
+  }
+  .socials ul {
+    gap: 0.3rem;
   }
 }
 

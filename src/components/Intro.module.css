@@ -5,11 +5,34 @@
   /* height: 50rem; */
   text-align: center;
   position: relative;
+  /* margin-bottom: 2rem; */
 }
 
-.top {
+.socials {
+  margin-bottom: 1.5rem;
+}
+
+.socials ul {
+  list-style: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials a {
+  display: block;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+}
+
+.top > :first-child {
+  display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
 }
@@ -20,7 +43,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Secular One", sans-serif;
+  /* font-family: "Secular One", sans-serif; */
+  font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
   line-height: 3rem;
@@ -33,14 +57,14 @@
 }
 
 .container h2 .middle {
-  margin-left: 1rem;
+  margin-left: 0.6rem;
 }
 
 .portrait {
   width: 11rem;
   height: 11rem;
   border-radius: 50%;
-  border: 3px solid hsl(186, 98%, 17%);
+  /* border: 3px solid hsl(186, 98%, 17%); */
   overflow: hidden;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -52,6 +76,8 @@
 }
 
 .info > div {
+  padding: 0.5rem;
+  border: 1px solid hsl(186, 98%, 17%);
   max-width: 400px;
   margin-bottom: 1rem;
 }
@@ -105,33 +131,142 @@
     hue-rotate(139deg) brightness(91%) contrast(81%);
 }
 
-@media (min-width: 36rem) {
-  .container {
-    padding: 8rem 4rem 0 4rem;
+@media (max-width: 360px) {
+  .top > :first-child {
+    flex-direction: column-reverse;
   }
-  .top {
-    justify-content: center;
+  .container h2 {
+    font-size: 1.3rem;
   }
-  .info > div {
-    margin-bottom: 0;
+  .container h2 span {
+    display: inline-block;
+  }
+  .container h2 :first-child {
+    display: block;
+    text-align: center;
+    /* margin-bottom: 0.5rem; */
+  }
+  .container h2 .middle {
+    margin-left: 0;
+    margin-right: 0.6rem;
   }
 }
 
-@media (min-width: 48rem) {
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+@media (max-width: 16rem) {
+  .container h2 {
+    font-size: 1.1rem;
   }
+}
+
+@media (min-width: 36rem) {
+  /* .container {
+    padding: 8rem 4rem 0 4rem;
+  } */
   .info > div {
-    margin-bottom: 1.5rem;
+    max-width: 500px;
+  }
+  .benefit1,
+  .benefit3 {
+    margin-inline: auto;
+    text-align: center;
   }
   .benefit2 {
+    margin-right: auto;
+    text-align: center;
+  }
+  .benefit1 .icons,
+  .benefit2 .icons,
+  .benefit3 .icons {
+    justify-content: center;
+  }
+
+  /* .info > div {
+    margin-bottom: 0;
+  } */
+}
+
+@media (min-width: 56rem) {
+  .container {
+    padding: 8rem 3rem 0 3rem;
+  }
+  .top {
+    width: calc(100% - 6rem);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 7rem;
+  }
+  .top > :first-child {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .container h2 {
+    background: -webkit-linear-gradient(right, #eee, #333);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Nunito", sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 3rem;
+    letter-spacing: -0.1rem;
     text-align: start;
+  }
+
+  .container h2 span {
+    display: inline-block;
+  }
+
+  .container h2 .middle {
     margin-left: 0;
+    margin-inline: 0.5rem;
+  }
+  .portrait {
+    width: 14rem;
+    height: 14rem;
+  }
+  .info {
+    padding-top: 12rem;
+    width: fit-content;
+    max-width: 898px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    /* background-color: white;
+    border: 1px solid white;
+    padding: 0.5rem; */
+  }
+  .info > div {
+    /* background-color: hsl(197, 36%, 57%); */
+    max-width: 280px;
+    margin-bottom: 1.5rem;
+  }
+  .benefit1 {
+    text-align: start;
+    margin-inline: 0;
+  }
+  .benefit2 {
+    text-align: end;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .benefit1 .icons {
+    justify-content: flex-start;
   }
   .benefit2 .icons {
-    justify-content: flex-start;
+    justify-content: flex-end;
+  }
+  .info .benefit3 {
+    max-width: 400px;
+    text-align: center;
+    margin-inline: auto;
+  }
+  .benefit3 .icons {
+    justify-content: center;
   }
 }

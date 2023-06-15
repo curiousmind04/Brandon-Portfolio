@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&family=Nunito:wght@400;600&family=Secular+One&display=swap");
 
 :root {
   --white: hsl(0, 0%, 100%);
@@ -32,7 +32,8 @@ body {
 
 main {
   /* background-color: white; */
-  background: linear-gradient(to bottom, black, #481f55);
+  background: linear-gradient(to bottom, black, hsl(350, 51%, 41%));
+  /* background: linear-gradient(to bottom, black, #481f55); */
   /* background: linear-gradient(to bottom, black, #3b3b3b); */
 }
 
@@ -46,4 +47,11 @@ a {
   color: var(--white);
   font-weight: 700;
   text-decoration: none;
+  transition: 0.2s ease-in;
+}
+
+@media (hover: hover) {
+  a:hover {
+    transform: scale(1.15);
+  }
 }

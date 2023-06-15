@@ -4,14 +4,52 @@ const Intro = () => {
   return (
     <section className={classes.container} id="intro">
       <div className={classes.top}>
-        <div className={classes.portrait}>
-          <img src="/assets/portrait.png" alt="portrait picture" />
+        <div>
+          <div className={classes.portrait}>
+            <img src="/assets/portrait.png" alt="portrait picture" />
+          </div>
+          <h2>
+            <span>FullStack </span>
+            <span className={classes.middle}>Software</span>
+            <span> Engineer</span>
+          </h2>
         </div>
-        <h2>
-          <span>FullStack</span>
-          <span className={classes.middle}>Software</span>
-          <span>Engineer</span>
-        </h2>
+        <div className={classes.socials}>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/brandon-bhangari/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/assets/linkedin.svg" alt="linkedin icon" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/curiousmind04"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/assets/github.svg" alt="github icon" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCyIq7vjHMbKCRaACOsuOkcA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/assets/youtube.svg" alt="youtube icon" />
+              </a>
+            </li>
+            <li>
+              <a href="mailto:b6_10_94_furlonge@hotmail.com">
+                <img src="/assets/mail.svg" alt="mail icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div className={classes.info}>
         <div className={classes.benefit1}>
@@ -33,9 +71,8 @@ const Intro = () => {
           </div>
           <h3>Where and When?</h3>
           <p>
-            I am based in Toronto, Ontario. I can work on-site or remote. I am
-            available immediately and I am waiting to dive in to this exciting
-            industry
+            I am based in Toronto, ON. I can work on-site or remote. I am
+            available immediately to dive into this exciting industry
           </p>
         </div>
         <div className={classes.benefit3}>

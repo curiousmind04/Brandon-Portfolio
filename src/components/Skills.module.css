@@ -1,29 +1,38 @@
 .container {
   width: 100%;
-  padding: 7rem 1.5rem 3rem 1.5rem;
+  padding: 7rem 1rem 0 1rem;
   text-align: center;
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.icons img {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(8%) saturate(3235%)
+    hue-rotate(139deg) brightness(91%) contrast(81%);
+  width: 30px;
+  height: 30px;
+}
+
 .container h2 {
-  color: var(--light-coral);
-  margin-bottom: 1.5rem;
+  color: var(--white);
+  margin-bottom: 2rem;
 }
 
 .skills {
   width: 100%;
-  max-width: 400px;
+  max-width: 304px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  row-gap: 1.5rem;
   margin-inline: auto;
-}
-
-.skills > div {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .skills img {
@@ -36,8 +45,40 @@
     hue-rotate(114deg) brightness(105%) contrast(105%);
 }
 
+@media (max-width: 250px) {
+  .skills {
+    column-gap: 1.5rem;
+    row-gap: 0.8rem;
+  }
+}
+
 @media (min-width: 36rem) {
   .container {
-    padding: 7rem 4rem 3rem 4rem;
+    padding: 7rem 4rem 0rem 4rem;
+  }
+  .skills {
+    max-width: 400px;
+    column-gap: 2rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  .container > :first-child {
+    margin-inline: auto;
+    margin-bottom: 2.5rem;
+  }
+  .skills {
+    max-width: 660px;
+    column-gap: 2.8rem;
+  }
+  .skills img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 70rem) {
+  .skills {
+    max-width: 850px;
   }
 }
