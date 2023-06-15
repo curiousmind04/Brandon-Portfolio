@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&family=Secular+One&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-coral: hsl(0, 87%, 73%);
+  --deep-jungle-green: hsl(186, 100%, 14%);
+  --police-blue: hsl(187, 41%, 29%);
+  --rapture-blue: hsl(179, 42%, 63%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+  min-height: 100vh;
+  position: relative;
+}
+
+main {
+  /* background-color: white; */
+  background: linear-gradient(to bottom, black, #481f55);
+  /* background: linear-gradient(to bottom, black, #3b3b3b); */
+}
+
+a,
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: var(--white);
+  font-weight: 700;
+  text-decoration: none;
+}
