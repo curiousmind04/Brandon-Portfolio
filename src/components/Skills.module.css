@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  padding: 7rem 1rem 0 1rem;
+  padding: 6rem 1rem 0 1rem;
   text-align: center;
 }
 
@@ -21,6 +21,8 @@
 
 .container h2 {
   color: var(--white);
+  font-size: 2rem;
+  opacity: 0.6;
   margin-bottom: 2rem;
 }
 
@@ -54,7 +56,10 @@
 
 @media (min-width: 36rem) {
   .container {
-    padding: 7rem 4rem 0rem 4rem;
+    padding: 6rem 4rem 0rem 4rem;
+  }
+  .container h2 {
+    font-size: 3.4rem;
   }
   .skills {
     max-width: 400px;

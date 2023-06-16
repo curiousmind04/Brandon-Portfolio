@@ -77,8 +77,8 @@ const Intro = () => {
         </div>
         <div className={classes.benefit3}>
           <div className={classes.icons}>
-            <img src="/assets/settings.svg" className={classes.icon} />
             <img src="/assets/bulb.svg" className={classes.icon} />
+            <img src="/assets/settings.svg" className={classes.icon} />
           </div>
           <h3>Why and How?</h3>
           <p>

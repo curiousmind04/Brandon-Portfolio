@@ -1,9 +1,9 @@
-// import classes from "./Footer.module.css";
+import classes from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <div></div>
+    <footer className={classes.footer}>
+      <p>&copy; 2023 Brandon Bhangari</p>
     </footer>
   );
 };

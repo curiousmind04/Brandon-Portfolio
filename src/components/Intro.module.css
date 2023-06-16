@@ -78,8 +78,10 @@
 .info > div {
   padding: 0.5rem;
   border: 1px solid hsl(186, 98%, 17%);
+  border-radius: 0.6rem;
   max-width: 400px;
   margin-bottom: 1rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
 .info > :last-child {
@@ -132,6 +134,10 @@
 }
 
 @media (max-width: 360px) {
+  .container {
+    padding: 8rem 1rem 0 1rem;
+  }
+
   .top > :first-child {
     flex-direction: column-reverse;
   }
@@ -155,6 +161,9 @@
 @media (max-width: 16rem) {
   .container h2 {
     font-size: 1.1rem;
+  }
+  .container h2 :first-child {
+    font-size: 1.3rem;
   }
 }
 
