@@ -45,7 +45,7 @@ const projects = [
       frontendCode:
         "https://github.com/curiousmind04/REST-Countries-API-React-TS",
       overview:
-        "https://www.youtube.com/watch?v=RMqOIlCNcdI&ab_channel=BrandonCBH",
+        "https://www.youtube.com/watch?v=VPJSru4IyyI&ab_channel=BrandonCBH",
     },
     description:
       "I used React, TypeScript, Vite, CSS Modules, the REST Countries API, and I deployed it with Netlify. You can see all countries on the homepage, search for a country, filter countries by region, visit country detail pages, click through to the border countries on the detail page, and toggle the color scheme between light and dark mode.",
@@ -85,10 +85,10 @@ const projects = [
     category: "Frontend",
     image: "prj-6-mobile.png",
     links: {
-      live: "https://arch-studio-reactts-c04.netlify.app/",
+      live: "https://brandonbhangari.netlify.app/",
       frontendCode: "https://github.com/curiousmind04/Brandon-Portfolio",
       overview:
-        "https://www.youtube.com/watch?v=j5Quwaor37A&ab_channel=BrandonCBH",
+        "https://www.youtube.com/watch?v=xY45cLWBSR0&ab_channel=BrandonCBH",
     },
     description:
       "I used React, TypScript, Vite, CSS Modules, and I deployed it with Netlify. This project is my portfolio website that you are on right now! You can view my skills, projects (including links to video explanations), visit the links to my social accounts, and contact me through the form or email button. This project is an opportunity to show my potential.",
