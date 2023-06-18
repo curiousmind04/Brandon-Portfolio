@@ -2,12 +2,12 @@
 
 :root {
   --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
   --light-coral: hsl(0, 87%, 73%);
-  --deep-jungle-green: hsl(186, 100%, 14%);
   --police-blue: hsl(187, 41%, 29%);
   --rapture-blue: hsl(179, 42%, 63%);
-  --midnight-green: hsl(186, 98%, 17%);
-  --sacramento-state-green: hsl(186, 96%, 10%);
+  --green-blue: hsl(186, 100%, 4%);
+  --turquoise: hsl(186, 98%, 17%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,10 +33,7 @@ body {
 }
 
 main {
-  /* background-color: white; */
-  background: linear-gradient(to bottom, black, hsl(202, 41%, 41%));
-  /* background: linear-gradient(to bottom, black, hsl(202, 70%, 69%)); */
-  /* background: linear-gradient(to bottom, black, hsl(350, 51%, 41%)); */
+  background: linear-gradient(to bottom, var(--black), hsl(202, 41%, 41%));
 }
 
 .sr-only {

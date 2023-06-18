@@ -5,14 +5,13 @@
 }
 
 .container h2 {
-  color: white;
+  color: var(--white);
   font-size: 2rem;
   opacity: 0.6;
   margin-bottom: 1.5rem;
 }
 
 .form {
-  /* padding: 0.5rem; */
   max-width: 33.75rem;
   margin-inline: auto;
   text-align: right;
@@ -31,16 +30,15 @@
   padding-left: 0.875rem;
   padding-right: 1rem;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--white);
   border-radius: 0;
   outline: none;
   margin-bottom: 1.5rem;
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 .form .error {
   margin-bottom: 0.5rem;
-  /* border-bottom: 1px solid hsl(0, 56%, 28%) !important; */
 }
 
 .form input::placeholder {
@@ -62,18 +60,17 @@
   padding-right: 1rem;
   resize: none;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--white);
   border-radius: 0;
   outline: none;
   margin-bottom: 1.5rem;
   vertical-align: top;
   cursor: pointer;
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 .form .messageError {
   margin-bottom: 0.5rem;
-  /* border-bottom: 1px solid hsl(0, 56%, 28%) !important; */
 }
 
 .form textarea::placeholder {
@@ -130,10 +127,9 @@ from changing when using Chrome autocomplete */
 }
 
 .up {
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   width: 5rem;
-  /* height: 3rem; */
   padding: 0.2rem 0.5rem;
   font-size: 0.8rem;
   font-weight: 600;
@@ -172,6 +168,4 @@ from changing when using Chrome autocomplete */
   .container h2 {
     font-size: 3.4rem;
   }
-  /* .form {
-  } */
 }

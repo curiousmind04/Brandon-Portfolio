@@ -15,8 +15,8 @@
 .icons img {
   filter: brightness(0) saturate(100%) invert(33%) sepia(8%) saturate(3235%)
     hue-rotate(139deg) brightness(91%) contrast(81%);
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
 }
 
 .container h2 {
@@ -28,7 +28,7 @@
 
 .skills {
   width: 100%;
-  max-width: 304px;
+  max-width: 19rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -38,8 +38,8 @@
 }
 
 .skills img {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .screen {
@@ -47,7 +47,7 @@
     hue-rotate(114deg) brightness(105%) contrast(105%);
 }
 
-@media (max-width: 250px) {
+@media (max-width: 15.625rem) {
   .skills {
     column-gap: 1.5rem;
     row-gap: 0.8rem;
@@ -62,7 +62,7 @@
     font-size: 3.4rem;
   }
   .skills {
-    max-width: 400px;
+    max-width: 25rem;
     column-gap: 2rem;
   }
 }
@@ -73,17 +73,17 @@
     margin-bottom: 2.5rem;
   }
   .skills {
-    max-width: 660px;
+    max-width: 41.25rem;
     column-gap: 2.8rem;
   }
   .skills img {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
   }
 }
 
 @media (min-width: 70rem) {
   .skills {
-    max-width: 850px;
+    max-width: 53.125rem;
   }
 }

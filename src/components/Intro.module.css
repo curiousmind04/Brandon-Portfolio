@@ -1,11 +1,8 @@
 .container {
-  /* background-color: rgb(213, 236, 236); */
   width: 100%;
   padding: 8rem 1.5rem 0 1.5rem;
-  /* height: 50rem; */
   text-align: center;
   position: relative;
-  /* margin-bottom: 2rem; */
 }
 
 .socials {
@@ -25,8 +22,8 @@
 }
 
 .socials img {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   vertical-align: bottom;
 }
 
@@ -38,12 +35,10 @@
 }
 
 .container h2 {
-  /* background: -webkit-linear-gradient(right, #333, #eee); */
   background: -webkit-linear-gradient(right, #eee, #333);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* font-family: "Secular One", sans-serif; */
   font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -64,9 +59,8 @@
   width: 11rem;
   height: 11rem;
   border-radius: 50%;
-  /* border: 3px solid hsl(186, 98%, 17%); */
   overflow: hidden;
-  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0.625rem 0.625rem rgba(0, 0, 0, 0.2);
 }
 
 .portrait img {
@@ -77,9 +71,9 @@
 
 .info > div {
   padding: 0.5rem;
-  border: 1px solid hsl(186, 98%, 17%);
+  border: 1px solid var(--turquoise);
   border-radius: 0.6rem;
-  max-width: 400px;
+  max-width: 25rem;
   margin-bottom: 1rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
@@ -101,7 +95,7 @@
 
 .info h3 {
   font-size: 1.5rem;
-  color: hsl(186, 98%, 17%);
+  color: var(--turquoise);
 }
 
 .info p {
@@ -124,8 +118,8 @@
 }
 
 .info img {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .icon {
@@ -133,7 +127,7 @@
     hue-rotate(139deg) brightness(91%) contrast(81%);
 }
 
-@media (max-width: 360px) {
+@media (max-width: 22.5rem) {
   .container {
     padding: 8rem 1rem 0 1rem;
   }
@@ -150,7 +144,6 @@
   .container h2 :first-child {
     display: block;
     text-align: center;
-    /* margin-bottom: 0.5rem; */
   }
   .container h2 .middle {
     margin-left: 0;
@@ -168,11 +161,8 @@
 }
 
 @media (min-width: 36rem) {
-  /* .container {
-    padding: 8rem 4rem 0 4rem;
-  } */
   .info > div {
-    max-width: 500px;
+    max-width: 31.25rem;
   }
   .benefit1,
   .benefit3 {
@@ -188,10 +178,6 @@
   .benefit3 .icons {
     justify-content: center;
   }
-
-  /* .info > div {
-    margin-bottom: 0;
-  } */
 }
 
 @media (min-width: 56rem) {
@@ -238,7 +224,7 @@
   .info {
     padding-top: 12rem;
     width: fit-content;
-    max-width: 898px;
+    max-width: 56.125rem;
     margin-inline: auto;
     display: flex;
     flex-direction: row;
@@ -246,13 +232,9 @@
     align-items: center;
     flex-wrap: wrap;
     margin-inline: auto;
-    /* background-color: white;
-    border: 1px solid white;
-    padding: 0.5rem; */
   }
   .info > div {
-    /* background-color: hsl(197, 36%, 57%); */
-    max-width: 280px;
+    max-width: 17.5rem;
     margin-bottom: 1.5rem;
   }
   .benefit1 {
@@ -271,7 +253,7 @@
     justify-content: flex-end;
   }
   .info .benefit3 {
-    max-width: 400px;
+    max-width: 25rem;
     text-align: center;
     margin-inline: auto;
   }

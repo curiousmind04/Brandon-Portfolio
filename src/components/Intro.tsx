@@ -31,7 +31,7 @@ const Intro = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/assets/github.svg" alt="github icon" />
+                <img src="/assets/icon-github.svg" alt="github icon" />
               </a>
             </li>
             <li>

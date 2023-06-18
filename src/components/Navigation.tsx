@@ -54,8 +54,6 @@ const Nav = () => {
             </li>
           </ul>
         </nav>
-        {/* <div className={classes.pattern1}></div>
-      <div className={classes.pattern2}></div> */}
       </header>
       <div
         className={classes.backdrop}
@@ -105,7 +103,7 @@ const Nav = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/assets/github.svg" alt="github icon" />
+                <img src="/assets/icon-github.svg" alt="github icon" />
               </a>
             </li>
             <li>
