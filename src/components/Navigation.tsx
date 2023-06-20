@@ -38,19 +38,22 @@ const Nav = () => {
         >
           <ul className={classes.list}>
             <li>
-              <a href="#skills" onClick={() => setMobileMenu(false)}>
-                Skills
+              <a
+                href="https://drive.google.com/file/d/1FHcizySvGjZYyuJARx6WeXJdnhCIq3Q0/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
               </a>
             </li>
             <li>
-              <a href="#projects" onClick={() => setMobileMenu(false)}>
-                Projects
-              </a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#contact" onClick={() => setMobileMenu(false)}>
-                Contact
-              </a>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -83,6 +86,15 @@ const Nav = () => {
           <li>
             <a href="#contact" onClick={() => setMobileMenu(false)}>
               Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1FHcizySvGjZYyuJARx6WeXJdnhCIq3Q0/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
             </a>
           </li>
         </ul>

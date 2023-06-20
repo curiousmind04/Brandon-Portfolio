@@ -131,6 +131,7 @@
 
 .desktopLinks .list {
   flex-direction: row;
+  gap: 1rem;
 }
 
 .list li {
