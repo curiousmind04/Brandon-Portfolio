@@ -22,11 +22,13 @@ const Skills = () => {
         <img src="/assets/skills/CSS.svg" />
         <img src="/assets/skills/Sass.svg" />
         <img src="/assets/skills/Bootstrap.svg" />
+        <img src="/assets/skills/TailwindCSS-Light.svg" />
 
         <img src="/assets/skills/NodeJS-Light.svg" />
         <img src="/assets/skills/ExpressJS-Light.svg" />
         <img src="/assets/skills/MongoDB.svg" />
         <img src="/assets/skills/NextJS-Light.svg" />
+        <img src="/assets/skills/Prisma.svg" />
 
         <img src="/assets/skills/Git.svg" />
         <img src="/assets/skills/Github-Light.svg" />
@@ -41,6 +43,7 @@ const Skills = () => {
         <img src="/assets/skills/Netlify-Light.svg" />
         <img src="/assets/skills/Vercel-Light.svg" />
         <img src="/assets/skills/Heroku.svg" />
+        <img src="/assets/skills/Bash-Light.svg" />
         <img src="/assets/display-code.svg" className={classes.screen} />
       </div>
     </section>
