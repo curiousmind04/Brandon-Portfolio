@@ -27,6 +27,7 @@ const Skills = () => {
         <img src="/assets/skills/NodeJS-Light.svg" />
         <img src="/assets/skills/ExpressJS-Light.svg" />
         <img src="/assets/skills/MongoDB.svg" />
+        <img src="/assets/skills/PostgreSQL-Light.svg" />
         <img src="/assets/skills/NextJS-Light.svg" />
         <img src="/assets/skills/Prisma.svg" />
 
@@ -38,6 +39,7 @@ const Skills = () => {
         <img src="/assets/skills/Redux.svg" />
         <img src="/assets/skills/Postman.svg" />
         <img src="/assets/skills/Firebase-Light.svg" />
+        <img src="/assets/skills/Jest.svg" />
         <img src="/assets/skills/Figma-Light.svg" />
 
         <img src="/assets/skills/Netlify-Light.svg" />
