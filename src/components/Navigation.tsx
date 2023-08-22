@@ -90,7 +90,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1FHcizySvGjZYyuJARx6WeXJdnhCIq3Q0/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DD2KC4T5ZbkGo6yUj-wIu3SYttPqgMOG/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
