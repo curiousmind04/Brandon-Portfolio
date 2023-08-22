@@ -51,6 +51,20 @@ const projects = [
   },
   {
     id: 4,
+    title: "Netflix Clone",
+    category: "Fullstack",
+    image: "netflix-project.png",
+    links: {
+      live: "https://netflix-clone-mu-lemon.vercel.app/",
+      frontendCode: "https://github.com/curiousmind04/netflix-clone",
+      overview:
+        "https://www.youtube.com/watch?v=W5NneK7kmLI&ab_channel=BrandonCBH",
+    },
+    description:
+      "I used NextJS 13, React, TypeScript, MongoDB, Prisma, Zustand, NextAuth, TailwindCSS, and Vercel for deployment. This project is a fully responsive Netflix Clone. You can sign up, sign in, and there is demo credentials that you can use as well. You can view the information modal associated with each movie, and you can watch each movie",
+  },
+  {
+    id: 5,
     title: "REST Countries API",
     category: "Frontend",
     image: "rest-countries-api.png",
@@ -65,7 +79,7 @@ const projects = [
       "I used React, TypeScript, Vite, CSS Modules, the REST Countries API, and I deployed it with Netlify. You can see all countries on the homepage, search for a country, filter countries by region, visit country detail pages, click through to the border countries on the detail page, and toggle the color scheme between light and dark mode.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Devjobs Web App",
     category: "Frontend",
     image: "devjobs.png",
@@ -79,7 +93,7 @@ const projects = [
       "I used React, TypeScript, Vite, CSS Modules, and I deployed it with Netlify. There is a theme toggle to switch between dark and light mode. The homepage contains the available jobs on the job board, and you can then visit the detail page for each job as well. You can use the filter inputs to narrow down your job search.",
   },
   {
-    id: 6,
+    id: 7,
     title: "Arch Studio Website",
     category: "Frontend",
     image: "arch-studio.png",
@@ -94,7 +108,7 @@ const projects = [
       "I used React, TypeScript, Vite, CSS Modules, React Leaflet for the map, and I deployed it with Netlify. You can navigate between the different pages to explore details about this fictional company, you can view the office locations on the generated map, and you can submit the contact form (which has the necessary validations).",
   },
   {
-    id: 7,
+    id: 8,
     title: "My Portfolio",
     category: "Frontend",
     image: "portfolio.png",
