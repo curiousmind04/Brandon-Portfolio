@@ -39,7 +39,7 @@ const Nav = () => {
           <ul className={classes.list}>
             <li>
               <a
-                href="https://drive.google.com/file/d/1DD2KC4T5ZbkGo6yUj-wIu3SYttPqgMOG/view?usp=sharing"
+                href="https://drive.google.com/file/d/1DlJQHEJT1uD2jxe6drVSIUacKovyLne2/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -90,7 +90,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1DD2KC4T5ZbkGo6yUj-wIu3SYttPqgMOG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DlJQHEJT1uD2jxe6drVSIUacKovyLne2/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

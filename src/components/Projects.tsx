@@ -5,20 +5,17 @@ import classes from "./Projects.module.css";
 const projects = [
   {
     id: 1,
-    title: "Entertainment Web App",
+    title: "FashionVista",
     category: "Fullstack",
-    image: "entertainment-web-app.png",
+    image: "fashionvista.png",
     links: {
-      live: "https://entertainment-web-app-reactts-c04.netlify.app/",
-      frontendCode:
-        "https://github.com/curiousmind04/Entertainment-Web-App-React-TS",
-      backendCode:
-        "https://github.com/curiousmind04/Entertainment-Web-App-Backend-TS",
+      live: "https://fashionvista.vercel.app/",
+      frontendCode: "https://github.com/chingu-voyages/v45-tier3-team-43",
       overview:
-        "https://www.youtube.com/watch?v=RMqOIlCNcdI&ab_channel=BrandonCBH",
+        "https://www.youtube.com/watch?v=_qY8hwLZbnE&t=1s&ab_channel=BrandonCBH",
     },
     description:
-      "I used React, TypeScript, Node, Express, MongoDB, Vite, CSS Modules, Netlify for frontend deployment, and Render for backend deployment. You can login or sign up, and there is demo credentials to try out the application without having to sign up. You can add/remove bookmarks from all movies and TV series, and you can search for relevant shows on all pages.",
+      "I used NextJS 13, React, TypeScript, MongoDB, Prisma, Cloudinary, NextAuth, CSS Modules, Stripe, and Vercel for deployment. In this project, anyone can create an account and then create an e-commerce store with a unique custom subdomain. Use the demo credentials to test out the project if you don’t want to create an account. The project is also fully responsive",
   },
   {
     id: 2,
@@ -36,6 +33,23 @@ const projects = [
   },
   {
     id: 3,
+    title: "Entertainment Web App",
+    category: "Fullstack",
+    image: "entertainment-web-app.png",
+    links: {
+      live: "https://entertainment-web-app-reactts-c04.netlify.app/",
+      frontendCode:
+        "https://github.com/curiousmind04/Entertainment-Web-App-React-TS",
+      backendCode:
+        "https://github.com/curiousmind04/Entertainment-Web-App-Backend-TS",
+      overview:
+        "https://www.youtube.com/watch?v=RMqOIlCNcdI&ab_channel=BrandonCBH",
+    },
+    description:
+      "I used React, TypeScript, Node, Express, MongoDB, Vite, CSS Modules, Netlify for frontend deployment, and Render for backend deployment. You can login or sign up, and there is demo credentials to try out the application without having to sign up. You can add/remove bookmarks from all movies and TV series, and you can search for relevant shows on all pages.",
+  },
+  {
+    id: 4,
     title: "Connect Four",
     category: "Frontend",
     image: "connect-four.png",
@@ -50,7 +64,7 @@ const projects = [
       "I used React, TypeScript, Vite, CSS Modules, and I deployed it with Netlify.  You can play a game of Connect Four against another human player (alternating turns on the same computer), or you can choose to play against the computer which was a bonus option for this project. This fun game is one of my favorite projects!",
   },
   {
-    id: 4,
+    id: 5,
     title: "Netflix Clone",
     category: "Fullstack",
     image: "netflix-project.png",
@@ -64,7 +78,7 @@ const projects = [
       "I used NextJS 13, React, TypeScript, MongoDB, Prisma, Zustand, NextAuth, TailwindCSS, and Vercel for deployment. This project is a fully responsive Netflix Clone. You can sign up, sign in, and there is demo credentials that you can use as well. You can view the information modal associated with each movie, and you can watch each movie",
   },
   {
-    id: 5,
+    id: 6,
     title: "REST Countries API",
     category: "Frontend",
     image: "rest-countries-api.png",
@@ -79,7 +93,7 @@ const projects = [
       "I used React, TypeScript, Vite, CSS Modules, the REST Countries API, and I deployed it with Netlify. You can see all countries on the homepage, search for a country, filter countries by region, visit country detail pages, click through to the border countries on the detail page, and toggle the color scheme between light and dark mode.",
   },
   {
-    id: 6,
+    id: 7,
     title: "Devjobs Web App",
     category: "Frontend",
     image: "devjobs.png",
@@ -93,7 +107,7 @@ const projects = [
       "I used React, TypeScript, Vite, CSS Modules, and I deployed it with Netlify. There is a theme toggle to switch between dark and light mode. The homepage contains the available jobs on the job board, and you can then visit the detail page for each job as well. You can use the filter inputs to narrow down your job search.",
   },
   {
-    id: 7,
+    id: 8,
     title: "Arch Studio Website",
     category: "Frontend",
     image: "arch-studio.png",
@@ -108,7 +122,7 @@ const projects = [
       "I used React, TypeScript, Vite, CSS Modules, React Leaflet for the map, and I deployed it with Netlify. You can navigate between the different pages to explore details about this fictional company, you can view the office locations on the generated map, and you can submit the contact form (which has the necessary validations).",
   },
   {
-    id: 8,
+    id: 9,
     title: "My Portfolio",
     category: "Frontend",
     image: "portfolio.png",
